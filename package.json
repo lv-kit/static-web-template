@@ -6,8 +6,9 @@
     "node": "14.x"
   },
   "scripts": {
-    "dev": "webpack start",
-    "build": "webpack"
+    "dev": "webpack serve",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "sass": "latest"
